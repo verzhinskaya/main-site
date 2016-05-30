@@ -1,6 +1,6 @@
 # Site settings
-title: Агентсво праздников
-description: "A responsive Jekyll theme for dental clinics."
+title: Агентство событий Екатерины Вержинской
+description: "Доверьтесь профессионалам и получайте удовольствие от организации Вашего мероприятия!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 # logo_url: svg/min/logo.svg
@@ -47,7 +47,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2016 Агентство Событий Екатерины Вержинской
 
 # Build settings
 markdown: kramdown

@@ -27,15 +27,15 @@ module.exports = function (grunt) {
                     outputStyle: 'compressed'
                 },
                 files: {
-                    'css/main-unprefixed.css' : '_scss/main.scss'
+                    'main-site/css/main-unprefixed.css' : 'main-site/_scss/main.scss'
                 }
             }
         },
 
         autoprefixer: {
             main: {
-                src: "css/main-unprefixed.css",
-                dest: "css/main.css"
+                src: "main-site/css/main-unprefixed.css",
+                dest: "main-site/css/main.css"
             }
         },
 
