@@ -6,8 +6,8 @@ url: "http://verzhinskaya.ru" # the name of your domain
 # logo_url: svg/min/logo.svg
 # logo_url: img/logo.png
 
-# Main
-main:
+# Verzhinskaya
+verzhinskaya:
     main_img: verzhinskaya-header.jpg
     main_title: Агентство событий Екатерины Вержинской
     main_description: Доверьтесь профессионалам и получайте удовольствие от организации Вашего мероприятия!

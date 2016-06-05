@@ -1,6 +1,6 @@
-/* MAIN
+/* VERZHINSKAYA
 -------------------------------------------------*/
-.main {
+.verzhinskaya {
     position: relative;
     margin-top: 70px;
     .container-fluid {
@@ -13,7 +13,7 @@
     }
 }
 
-.main-content {
+.verzhinskaya-content {
     padding: $space 0;
     background: rgba($white, 0.7);
     @include breakpoint(small) {
@@ -22,7 +22,7 @@
         left: 0;
         width: 100%;
     }
-    .main-content-inner {
+    .verzhinskaya-content-inner {
         @include breakpoint(small) {
             width: 50%;
         }
