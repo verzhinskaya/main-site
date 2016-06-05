@@ -6,18 +6,28 @@
   title: День рождения
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
+- icon: fa-users
+  title: Корпоратив
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  
 - icon: fa-glass
-  title: Юбилей
+  title: Вечеринки
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
+- icon: fa-heart
+  title: Романтика
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  
+- icon: fa-tree
+  title: Промо-мероприятия
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  
 - icon: fa-space-shuttle
   title: Шоу программа
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
-- icon: fa-users
-  title: Корпоратив
+- icon: fa-tree
+  title: Отдых в Крыму
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
-- icon: fa-tree
-  title: Новый год
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+
