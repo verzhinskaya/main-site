@@ -4,14 +4,14 @@ layout: default
 
 <!-- Start Main -->
 <div class="main" style="background: url('{{ site.baseurl }}/img/{{ site.main.main_img }}') no-repeat; background-size: cover;">
-    <!--<div class="main-content">
+    <div class="main-content">
         <div class="container-fluid">
             <div class="main-content-inner">
                 <h1>{{ site.main.main_title }}</h1>
                 <p>{{ site.main.main_description }}</p>
             </div>
         </div>
-    </div>-->
+    </div>
 
     <!--<div class="container-fluid">
 
@@ -42,19 +42,19 @@ layout: default
 <div class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        Более
+        <br>Более
 		<div class="morethan">10</div>
 		лет опыта работы
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        Более
+        <br>Более
 		<div class="morethan">100</div>
 		проведённых мероприятий
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        Более
+        <br>Более
 		<div class="morethan">1000</div>
 		благодарных клиентов
     </div>
@@ -118,7 +118,7 @@ layout: default
         <h2 class="section-title">Мероприятия</h2>
 
         <div class="row">
-            {% for event in site.data.event %}
+            {% for event in site.data.events %}
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
                         <!-- <svg class="icon {{ event.icon }}"><use xlink:href="#{{ event.icon }}"></use></svg> -->
