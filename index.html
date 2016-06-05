@@ -2,18 +2,18 @@
 layout: default
 ---
 
-<!-- Start Hero -->
-<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
-    <div class="hero-content">
+<!-- Start Main -->
+<div class="main" style="background: url('{{ site.baseurl }}/img/{{ site.main.main_img }}') no-repeat; background-size: cover;">
+    <!--<div class="main-content">
         <div class="container-fluid">
-            <div class="hero-content-inner">
-                <h1>{{ site.hero.hero_title }}</h1>
-                <p>{{ site.hero.hero_description }}</p>
+            <div class="main-content-inner">
+                <h1>{{ site.main.main_title }}</h1>
+                <p>{{ site.main.main_description }}</p>
             </div>
         </div>
-    </div>
+    </div>-->
 
-    <div class="container-fluid">
+    <!--<div class="container-fluid">
 
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Свяжитесь с нами</h3>
@@ -34,47 +34,29 @@ layout: default
             </form>
         </div>
 
-    </div>
+    </div>-->
 </div>
-<!-- End Hero -->
+<!-- End Main -->
 
 <!-- Start 3 columns -->
 <div class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Контакты</h3>
-        <ul>
-            {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
-        </ul>
+        Более
+		<div class="morethan">10</div>
+		лет опыта работы
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Opening Hours</h3>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Monday – Friday</td>
-                    <td>{{ site.monday_friday }}</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>{{ site.saturday }}</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>{{ site.sunday }}</td>
-                </tr>
-            </tbody>
-        </table>
+        Более
+		<div class="morethan">100</div>
+		проведённых мероприятий
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Location</h3>
-            <p>
-                {{ site.contact.address }}
-            </p>
+        Более
+		<div class="morethan">1000</div>
+		благодарных клиентов
     </div>
 </div>
 <!-- End 3 columns -->
@@ -123,33 +105,41 @@ layout: default
                 </div>
             </div>
             <div class="col-sm-6">
-                <img src="img/about2.jpg" alt="...">
+                <div class="videoclip"><iframe src="http://vk.com/video_ext.php?oid=154563095&id=171435400&hash=0ad09e597ca12266&hd=2" frameborder="0"></iframe></div>
             </div>
         </div>
     </div>
 </div>
 <!-- End About -->
 
-<!-- Start Treatments -->
-<div id="treatments" class="treatments">
+<!-- Start Events -->
+<div id="events" class="events">
     <div class="container-fluid">
         <h2 class="section-title">Мероприятия</h2>
 
         <div class="row">
-            {% for treatment in site.data.treatments %}
+            {% for event in site.data.event %}
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
-                        <!-- <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg> -->
-                        <i class="icon fa {{ treatment.icon }}" aria-hidden="true"></i>
-                        <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
+                        <!-- <svg class="icon {{ event.icon }}"><use xlink:href="#{{ event.icon }}"></use></svg> -->
+                        <i class="icon fa {{ event.icon }}" aria-hidden="true"></i>
+                        <h4>{{ event.title }}</h4>
+                        <p>{{ event.description }}</p>
                     </div>
                 </div>
             {% endfor %}
         </div>
     </div>
 </div>
-<!-- End Treatments -->
+<!-- End Events -->
+
+<!-- Start Highlights -->
+<div id="highlights" class="highlights">
+    <div class="container-fluid">
+        <h2 class="section-title">7 ключевых принципов нашей работы</h2>
+    </div>
+</div>
+<!-- End Highlights -->
 
 <!-- Start Our team -->
 <div id="team" class="team">
@@ -198,7 +188,7 @@ layout: default
 <!-- End Testimonials -->
 
 <!-- Start Gallery -->
-<div id="gallery" class="gallery">
+<!--<div id="gallery" class="gallery">
 
     <h2 class="section-title">Галерея</h2>
 
@@ -213,9 +203,21 @@ layout: default
         </a>
     {% endfor %}
 
-</div>
+</div>-->
 <!-- End Gallery -->
 
 <!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
+<!--<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>-->
 <!-- End Map -->
+
+<!-- Start Deals -->
+<div id="deals" class="deals">
+	<h2 class="section-title">Акции и предложения</h2>
+</div>
+<!-- End Deals -->
+
+<!-- Start Partners -->
+<div id="partners" class="partners">
+	<h2 class="section-title">Партнёры</h2>
+</div>
+<!-- End Partners -->
