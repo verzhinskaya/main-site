@@ -1,34 +1,20 @@
-- name: Александр
-  image: alexandr.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
 - name: Екатерина
   image: ekaterina.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-#
-# - name: Annie
-#   image: team.jpg
-#   email: email@gmail.com
-#   phone: 9659 43 21
-#
-# - name: Jeff Winger
-#   image: team.jpg
-#   email: email@gmail.com
-#   phone: 9659 43 21
-#
-# - name: Britta Perry
-#   image: team.jpg
-#   email: email@gmail.com
-#   phone: 9659 43 21
-#
-# - name: Troy Barnes
-#   image: team.jpg
-#   email: email@gmail.com
-#   phone: 9659 43 21
-#
-# - name: Annie
-#   image: team.jpg
-#   email: email@gmail.com
-#   phone: 9659 43 21
+  email: verzhinskaya@mail.ru
+  phone: 0079677410051
+  
+- name: Александр
+  image: alexandre1.jpg
+  email: 
+  phone: 
+  
+- name: Ольга
+  image: olga.jpg
+  email: 
+  phone: 
+  
+- name: Александр
+  image: alexandre2.jpg
+  email: 
+  phone: 
+  

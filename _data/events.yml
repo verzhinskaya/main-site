@@ -1,33 +1,50 @@
+# ВАЖНО: не использовать знак двоеточия ":" в текстах
+
 - icon: fa-heart
-  title: Свадьба
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: "Свадьба"
+  description: "Свадьбы в стиле рустик, шебби-шик, эко-стайл, Прованс, Тиффани, Гэтсби, путешествия, морская свадьба"
+  img: 1.jpg
+  link: http://svadba.verzhinskaya.ru/
+  external: yes
 
 - icon: fa-birthday-cake
-  title: День рождения
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: "День рождения"
+  description: "Тематические праздники — гангстеры, пираты, стиляги, милитари, Голливуд, Октоберфест, Мулен Руж"
+  img: 2.jpg
+  
+  icon: fa-birthday-cake
+  title: "Детские праздники"
+  description: "Лучшие развлечения для детей — шоу мыльных пузерей, сумасшедший профессор, фокусники, клоуны, мимы, аквагрим, энгри бёрдз, пиньята, песочное шоу"
+  img: 15.jpg
 
 - icon: fa-users
-  title: Корпоратив
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: "Корпоратив"
+  description: "Весёлый сценарий проведения корпоратива — это то, что поможет хорошей компании сослуживцев совместно отметить праздник"
+  img: 5.jpg
   
 - icon: fa-glass
-  title: Вечеринки
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  title: "Вечеринки"
+  description: "Событие, которое оценят самые высокие гости. Для самых искушенных — проведение VIP Party, вечеринки высшего уровня."
+  img: 4.jpg
 
 - icon: fa-heart
-  title: Романтика
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: "Романтика"
+  description: "Фотосессии влюбленных очень разнообразны. Они могут быть романтические, постановочные или эмоциональные и живые."
+  img: 16.jpg
   
 - icon: fa-tree
-  title: Промо-мероприятия
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: "Промо-мероприятия"
+  description: "Целью проведения любой промо-акции (рекламной акции) является быстрое повышение рейтинга компании среди целевой аудитории."
+  img: 17.jpg
   
 - icon: fa-space-shuttle
-  title: Шоу программа
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: "Шоу-программа"
+  description: "Шоу программа — неотъемлемый элемент любого торжества, который определяет атмосферу праздника и является важным фактором успеха веселья."
+  img: 14.jpg
 
 - icon: fa-tree
-  title: Отдых в Крыму
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: "Отдых в Крыму"
+  description: "Мало найдется в современной России туристов, кто бы ни разу не ездил на отдых в Крым."
+  img: 8.jpg
 
 
